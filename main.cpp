@@ -10,5 +10,5 @@ int main(){
     else{
         cout << "numero non primo";
     }
-    return 0;
-}
+    return 0;}
+
