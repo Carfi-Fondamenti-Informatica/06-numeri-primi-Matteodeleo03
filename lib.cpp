@@ -8,5 +8,5 @@ bool numprimo(int a, int i){
             return false;
         }
     }
-    numprimo(a, i + 1);
-}
+    numprimo(a, i + 1);}
+
