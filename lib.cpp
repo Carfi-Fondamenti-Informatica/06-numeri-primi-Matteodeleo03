@@ -1,5 +1,5 @@
 #include "lib.h"
-bool numprimo (inta, int i){
+bool numprimo (int a, int i){
   if (a% i == 0){
     if (a == i){
       return true;
