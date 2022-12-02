@@ -2,13 +2,13 @@
 #include "lib.h"
 using namespace std;
 int main(){
-  int a=0, i=2;
+  int a;
+  bool b;
   cin >> a;
-  if (numprimo(a,i) == true){
+  b=primi(a);
+  if (b==true)
     cout << "numero primo";
-  }
-  else{
+  else if(b==false)
     cout << "numero non primo";
-  }
   return 0;
 }
