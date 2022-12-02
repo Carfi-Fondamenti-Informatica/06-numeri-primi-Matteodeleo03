@@ -1,12 +1,4 @@
-#include "lib.h"
-bool numprimo (int a, int i){
-  if (a % i == 0){
-    if (a == i){
-      return true;
-    }
-    else{
-      return false;
-    }
-  }
-  numprimo (a, i + 1);
-}
+#ifndef esercitazione_6_lib_h
+#define esercitazione _6_lib_h
+bool numprimo (int,int);
+#endif
